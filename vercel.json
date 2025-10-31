@@ -2,7 +2,7 @@
   "buildCommand": "vite build",
   "outputDirectory": "dist",
   "redirects": [
-    { "source": "https://www.mustplay.com/(.*)", "destination": "https://mustplay.com/$1", "permanent": true }
+    { "source": "/(.*)/", "destination": "/$1", "permanent": true }
   ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
